@@ -1,5 +1,5 @@
-import "./../css/style.css";
-import "./src.js";
+import "../css/style.css";
+import "./src.js";  // Ensure this line is present to import src.js
 
 const garageLoadedEvent = new Event("garage-loaded");
 
@@ -18,7 +18,7 @@ function init() {
   const del_res = garage.delete("AA19EEE");
   console.log("T1: ", del_res);
   console.log("T2: ", garage.get("DR13NGH"));
-  console.log("T3: ", garage.get("AA19SRN")["reg"] == "AA19SRN");
+  console.log("T3: ", garage.get("AA19SRN")["reg"] === "AA19SRN");
   window.dispatchEvent(garageLoadedEvent);
   console.log('Garage Loaded');
 }

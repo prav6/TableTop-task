@@ -2,6 +2,7 @@
   "name": "tabletop-task",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "start": "webpack serve --mode development --env development"
   },
@@ -9,6 +10,7 @@
   "author": "tabletop",
   "dependencies": {
     "@babel/core": "^7.14.3",
+    "axios": "^1.7.2",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.6",

@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Tabletop</title>
+    <title>Tabletop Garage</title>
 </head>
-
 <body>
-</body>
+<h1>Tabletop Garage</h1>
+<div id="car-info">
+    <h2>Car Information</h2>
+</div>
 
+<div id="new-car-form">
+    <h2>Register a New Car</h2>
+    <form id="car-registration-form">
+        <label for="registration-number">Registration Number:</label>
+        <input type="text" id="registration-number" name="registration-number" required>
+        <button type="submit">Register Car</button>
+    </form>
+</div>
+
+<div id="car-modal" class="modal">
+    <div class="modal-content"></div>
+</div>
+</body>
 </html>
